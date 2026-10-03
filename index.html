@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kingdavidbb | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="custom-cursor">
+    <span id="cursor-text"></span>
+</div>
+    <canvas id="particles-canvas"></canvas>
+    <div class="loader" id="loader">
+    <div class="loader-content">
+        <div class="loader-circle"></div>
+        <h2>MyPortfolio</h2>
+        <p>Loading...</p>
+    </div>
+</div>
+    <div class="scroll-progress" id="scroll-progress"></div>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h2 class="logo">Kingdavidbb</h2>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="404.html">404</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menu-btn">☰</button>
+            <button class="theme-btn" id="theme-btn">☀️</button>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-text">
+                <div class="availability-badge">
+                     <span class="availability-dot"></span>
+                     <span>Available for Projects</span>
+                </div>
+
+                <p class="welcome">
+                    WELCOME TO MY WEBSITE 👋
+                </p>
+
+                <h1>
+                    Hi, I'm <span>Kingdavidbb</span>
+                </h1>
+
+                <h2>
+                  I'm a <span id="typing-text"></span>
+                </h2>
+
+                <p>
+                    I'm a young developer passionate about technology,
+                    web design and creating amazing digital experiences.
+                </p>
+
+                <div class="buttons">
+                    <a href="about.html" class="btn magnetic">
+                        About Me
+                    </a>
+
+                    <a href="projects.html" class="btn second-btn magnetic">
+                        My Projects
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Profile Picture -->
+            <div class="hero-image">
+
+                <div class="profile-circle">
+    <img src="IMG-20260725-WA0069.jpg" alt="My Profile Picture">
+</div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <div class="hero-socials">
+
+    <a href="#" aria-label="Instagram">
+        IG
+    </a>
+
+    <a href="#" aria-label="TikTok">
+        TK
+    </a>
+
+    <a href="#" aria-label="GitHub">
+        GH
+    </a>
+
+    <a href="contact.html" aria-label="Contact">
+        @
+    </a>
+
+</div>
+
+</div>
+
+<section class="marquee-section">
+
+    <div class="marquee">
+
+        <div class="marquee-track">
+
+            <span>WEB DESIGN</span>
+            <i>✦</i>
+
+            <span>WEB DEVELOPMENT</span>
+            <i>✦</i>
+
+            <span>UI DESIGN</span>
+            <i>✦</i>
+
+            <span>JAVASCRIPT</span>
+            <i>✦</i>
+
+            <span>CREATIVE DESIGN</span>
+            <i>✦</i>
+
+            <span>RESPONSIVE WEBSITES</span>
+            <i>✦</i>
+
+            <!-- Duplicate for seamless scrolling -->
+
+            <span>WEB DESIGN</span>
+            <i>✦</i>
+
+            <span>WEB DEVELOPMENT</span>
+            <i>✦</i>
+
+            <span>UI DESIGN</span>
+            <i>✦</i>
+
+            <span>JAVASCRIPT</span>
+            <i>✦</i>
+
+            <span>CREATIVE DESIGN</span>
+            <i>✦</i>
+
+            <span>RESPONSIVE WEBSITES</span>
+            <i>✦</i>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="home-about-section">
+
+    <div class="home-about-image reveal-left">
+        <div class="about-image-frame">
+            <img
+                src="IMG-20260725-WA0059(1).jpg"
+                alt="My Profile Picture"
+            >
+        </div>
+    </div>
+
+    <div class="home-about-content reveal-right">
+
+        <p class="welcome">ABOUT ME</p>
+
+        <h1>
+            Turning Ideas Into
+            <span>Digital Experiences</span>
+        </h1>
+
+        <p>
+            I'm a passionate web designer and developer who enjoys
+            creating modern, responsive and interactive websites.
+        </p>
+
+        <p>
+            I work with HTML, CSS and JavaScript to turn ideas into
+            functional digital experiences while continuously learning
+            new technologies.
+        </p>
+
+        <div class="about-highlights">
+
+            <div>
+                <strong>01</strong>
+                <span>Creative</span>
+            </div>
+
+            <div>
+                <strong>02</strong>
+                <span>Responsive</span>
+            </div>
+
+            <div>
+                <strong>03</strong>
+                <span>Interactive</span>
+            </div>
+
+        </div>
+
+        <a href="about.html" class="btn magnetic">
+            More About Me →
+        </a>
+
+    </div>
+
+</section>
+
+<!--Stats-->
+<section class="stats-section">
+
+    <div class="stats-container">
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="3">0</h2>
+            <p>Projects</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="4">0</h2>
+            <p>Skills</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="2">0</h2>
+            <p>Websites</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="100">0</h2>
+            <p>Passion %</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!--Service-->
+<section class="services-section">
+
+    <div class="services-heading ">
+        <p class="welcome">WHAT I DO</p>
+        <h1>My <span>Services</span></h1>
+        <p>Here are some of the things I can create with technology.</p>
+    </div>
+
+    <div class="services-container">
+
+        <div class="service-card ">
+            <div class="service-icon">💻</div>
+            <h2>Web Design</h2>
+            <p>
+                I create modern, responsive and attractive websites
+                that work smoothly on different devices.
+            </p>
+            <a href="contact.html" class="service-btn magnetic">Let's Talk</a>
+        </div>
+        
+        <div class="service-card ">
+            <div class="service-icon">⚙️</div>
+            <h2>Web Development</h2>
+            <p>
+                I build functional websites using HTML, CSS and
+                JavaScript with interactive features.
+            </p>
+            <a href="contact.html" class="service-btn">Let's Talk</a>
+        </div>
+
+        <div class="service-card ">
+            <div class="service-icon">🎨</div>
+            <h2>UI Design</h2>
+            <p>
+                I design clean and user-friendly interfaces with
+                modern layouts, animations and visual effects.
+            </p>
+            <a href="contact.html" class="service-btn">Let's Talk</a>
+        </div>
+
+    </div>
+
+</section>
+<section class="tech-section">
+
+    <div class="tech-heading ">
+        <p class="welcome">MY TOOLKIT</p>
+        <h1>Technologies I <span>Use</span></h1>
+        <p>Tools and technologies I use to build digital experiences.</p>
+    </div>
+
+    <div class="tech-container">
+
+        <div class="tech-card ">
+            <div class="tech-icon">HTML</div>
+            <h2>HTML5</h2>
+            <p>Structure</p>
+        </div>
+
+        <div class="tech-card ">
+            <div class="tech-icon">CSS</div>
+            <h2>CSS3</h2>
+            <p>Styling</p>
+        </div>
+
+        <div class="tech-card ">
+            <div class="tech-icon">JS</div>
+            <h2>JavaScript</h2>
+            <p>Interactivity</p>
+        </div>
+
+        <div class="tech-card ">
+            <div class="tech-icon">VS</div>
+            <h2>VS Code</h2>
+            <p>Development</p>
+        </div>
+
+        <div class="tech-card ">
+            <div class="tech-icon">GIT</div>
+            <h2>Git</h2>
+            <p>Version Control</p>
+        </div>
+
+        <div class="tech-card ">
+            <div class="tech-icon">UI</div>
+            <h2>UI Design</h2>
+            <p>Interface Design</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="cta-section">
+
+    <div class="cta-content">
+        <p class="welcome">LET'S WORK TOGETHER</p>
+
+        <h1>
+            Have a <span>Project</span> in Mind?
+        </h1>
+
+        <p>
+            Let's turn your idea into a modern and professional website.
+        </p>
+
+        <a href="contact.html" class="cta-btn">
+            Contact Me →
+        </a>
+    </div>
+
+</section>
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+            <h2>My<span>Portfolio</span></h2>
+            <p>
+                Building modern websites and turning ideas
+                into digital experiences.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-social">
+            <h3>Follow Me</h3>
+
+            <div class="social-icons">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="TikTok">TK</a>
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="GitHub">GH</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-line"></div>
+
+    <div class="footer-bottom">
+        <p>© 2026 MyPortfolio. All rights reserved.</p>
+        <p>Designed & Built with ❤️</p>
+    </div>
+
+</footer>
+<button class="back-to-top" id="back-to-top">↑</button>
+
+<script src="script.js"></script>
+<a
+    href="https://wa.me/2349077705171"
+    class="whatsapp-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with me on WhatsApp"
+>
+    <span>☏</span>
+    <div class="whatsapp-tooltip">Chat with me</div>
+</a>
+</body>
+</html>

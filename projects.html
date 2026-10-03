@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Projects</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="custom-cursor">
+    <span id="cursor-text"></span>
+</div>
+    <canvas id="particles-canvas"></canvas>
+    <div class="loader" id="loader">
+    <div class="loader-content">
+        <div class="loader-circle"></div>
+        <h2>MyPortfolio</h2>
+        <p>Loading...</p>
+    </div>
+</div>
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h2 class="logo">MyPortfolio</h2>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="menu-btn" id="menu-btn">☰</button>
+            <button class="theme-btn" id="theme-btn">☀️</button>
+        </nav>
+    </header>
+
+    <!-- Projects -->
+    <section class="projects-page">
+
+        <div class="projects-heading">
+            <p class="welcome">MY WORK</p>
+
+            <h1>My <span>Projects</span></h1>
+
+            <p>
+                Here are some of the projects I have created
+                and worked on.
+            </p>
+        </div>
+        <div class="project-search">
+
+    <span>⌕</span>
+
+    <input
+        type="text"
+        id="project-search"
+        placeholder="Search projects..."
+        autocomplete="off"
+    >
+
+</div>
+        <div class="project-filters">
+
+    <button class="filter-btn active" data-filter="all">
+        All
+    </button>
+
+    <button class="filter-btn" data-filter="website">  
+        Websites
+    </button>
+
+    <button class="filter-btn" data-filter="ui">
+        UI Design
+    </button>
+
+    <button class="filter-btn" data-filter="javascript">
+        JavaScript
+    </button>
+
+</div>
+
+        <div class="projects-container">
+
+            <!-- Project 1 -->
+            <div class="project-card" data-category="website javascript">
+                <span class="project-status completed">
+                   Completed
+                </span>
+
+                <div class="project-image">
+                    <span>PROJECT 01</span>
+                </div>
+
+                <div class="project-info">
+
+                    <h2>GodsGoodness Cakes&Event</h2>
+                    <div class="project-image">
+    <img src="cake2.jpeg" alt="GodsGoodness Cakes&Event website">
+</div>
+
+                    <p>
+                        A catering business website designed to
+                        showcase cakes, events and catering services.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a
+    href="https://godsgoodnesscakes-events.netlify.app"
+    class="project-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    View Project →
+</a>
+                    </a>
+
+                </div>
+
+                <div class="project-card "
+     data-category="website"
+     data-title="GodsGoodness Cakes&Event"
+     data-description="A modern catering and event   website."
+     data-image="cake2.jpg"
+     data-link="#">
+
+            </div>
+
+
+            <!-- Project 2 -->
+            <div class="project-card" data-category="website javascript">
+                <span class="project-status progress">
+                  In Progress
+                </span>
+
+                <div class="project-image">
+                    <span>PROJECT 02</span>
+                </div>
+
+                <div class="project-info">
+
+                    <h2>Kings Dog Training</h2>
+                    <div class="project-image">
+    <img src="Dogo Argentino_male.jpg" alt="Kings Dog Training website">
+</div>
+
+                    <p>
+                        A Dog Training website created to provide
+                        a shorter way of booking your dog training appointment.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a
+    href="https://kings-dogtraining.netlify.app"
+    class="project-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    View Project →
+</a>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 3 -->
+            <div class="project-card" data-category="website ui javascript">
+                <span class="project-status upcoming">
+                  Coming Soon
+                </span>
+
+                <div class="project-image">
+                    <span>PROJECT 03</span>
+                </div>
+
+                <div class="project-info">
+
+                    <h2>Prestige Wheels</h2>
+                    <div class="project-image">
+    <img src="Range Rover SPORT SRV.jpg" alt="Prestige Wheels website">
+</div>
+
+                    <p>
+                        A modern website concept for displaying
+                        cars and dealership information.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a
+    href="https://your-project-link.com"
+    class="project-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    View Project →
+</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+<!-- Footer -->
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <h2>MyPortfolio</h2>
+
+        <p>
+            Building, learning and creating with technology.
+        </p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 MyPortfolio. All rights reserved.</p>
+    </div>
+
+</footer>
+<button class="back-to-top" id="back-to-top">↑</button>
+
+<!-- PROJECT PREVIEW MODAL -->
+<div class="modal-info">
+
+    <p class="welcome">PROJECT SHOWCASE</p>
+
+    <h2 id="modal-title">Project Title</h2>
+
+    <p id="modal-description">
+        Project description goes here.
+    </p>
+
+    <div class="modal-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+    </div>
+
+    <a href="#"
+       id="modal-link"
+       class="modal-live-btn"
+       target="_blank">
+        Live Demo →
+    </a>
+
+</div>
+
+
+
+
+</div>
+<!-- PROJECT LIGHTBOX -->
+
+<div id="simple-lightbox" class="simple-lightbox">
+
+    <button id="simple-lightbox-close" class="simple-lightbox-close">
+        ×
+    </button>
+
+    <button id="simple-lightbox-prev" class="simple-lightbox-arrow prev">
+        &#10094;
+    </button>
+
+    <img id="simple-lightbox-image" src="" alt="Project preview">
+
+    <button id="simple-lightbox-next" class="simple-lightbox-arrow next">
+        &#10095;
+    </button>
+
+</div>
+
+</div>
+<script src="script.js"></script>
+<a
+    href="https://wa.me/2349077705171"
+    class="whatsapp-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with me on WhatsApp"
+>
+    <span>☏</span>
+    <div class="whatsapp-tooltip">Chat with me</div>
+</a>
+</body>
+</html>
